@@ -896,6 +896,12 @@ StScrollBar {
       color: $inverse_secondary_fg_color;
       &:focus, &:hover, &:active { color: $inverse_fg_color; }
     }
+
+    .popup-menu-arrow {
+        width: 0;
+        height: 0;
+        color: transparent;
+    }
   }
 
   .panel-status-indicators-box,
@@ -1860,8 +1866,8 @@ StScrollBar {
   }
 
   .keyboard-key {
-    min-height: $medium_size * 2;
-    min-width: $medium_size * 2;
+    min-height: $medium_size;
+    min-width: $medium_size;
     font-size: 2em;
     font-weight: 500;
     border-radius: $material_radius;
